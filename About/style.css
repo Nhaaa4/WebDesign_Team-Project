@@ -111,9 +111,41 @@ section h2 {
     margin-top: 1rem;
     padding: 1rem 3rem;
     font-size: 2rem;
+    padding-bottom: 0;
 }
 
 section article {
     padding: 2rem 6rem;
-    font-size: 1.25rem
+    font-size: 1.25rem;
+    padding-bottom: 1rem;
+}
+
+.img-wrapper {
+    margin: 1rem 5rem;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.img-group img {
+    margin-top: 1rem;
+    border-radius: 8px;
+}
+
+.img-group img:hover {
+    box-shadow: 0 0 15px #d5fadd;
+}
+
+.img-group p {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-family: monospace;
+}
+
+.img-group:hover {
+    transition: 0.3s ease;
+    transform: scale(1.02);
 }
