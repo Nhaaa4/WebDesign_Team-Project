@@ -4,10 +4,11 @@ function clickProfile()
 {
     if (click == true)
     {
-        profileHtml.parentNode.removeChild(profileHtml);
+        profileHtml.style.display = 'none';
         click = false;
     }else if(click == false)
     {
+        profileHtml.style.display = 'block';
         click = true;
     }
 }
