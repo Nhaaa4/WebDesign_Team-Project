@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Khmer Banteay Srey';
+    src: url(../Fonts/Khmer\ Banteay\ Srey.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+}
+
+body {
+    background-color: #287242;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo {
+    position: relative;
+    font-size: 0.80rem;
+    left: 2rem;
+    cursor: pointer;
+}
+
+.logo span {
+    position: absolute;
+    font-weight: 200;
+    font-family: 'Khmer Banteay Srey';
+    font-size: 2rem;
+    top: -18px;
+    left: -1.5rem;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+    text-shadow: 0 0 15px #d5fadd;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    font-size: 1.25rem;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover,
+nav span {
+    color: #d5fadd;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    transform: scale(1.05);
+}
+
+.icon-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.icon {
+    display: flex;
+    gap: 1rem;
+}
+
+.icon i {
+    width: 40px;
+}
+
+.icon i:hover {
+    transform: scale(1.05);
+}
+
+.profile {
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.profile img {
+    border-radius: 50%;
+}
+
+.username {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* * Header Styles */
+
+section {
+    padding: 1rem;
+}
+
+section h2 {
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    font-size: 2rem;
+}
+
+section article {
+    padding: 2rem 6rem;
+    font-size: 1.25rem
+}
