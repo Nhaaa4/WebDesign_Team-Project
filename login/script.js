@@ -11,8 +11,9 @@ function log()
     }else
     {
         userEmail.style.border = 'none';
-       userPassword.style.border = 'none';
+        userPassword.style.border = 'none';
         console.log(userEmail.value);
         console.log(userPassword.value);
+        login.href='../About/index.html';
     }
 }

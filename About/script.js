@@ -1,14 +1,14 @@
 const profileHtml = document.getElementById('profile');
-let click = true;
+const icon = document.getElementById('icon');
+profileHtml.style.display = 'none';
+
 function clickProfile()
 {
-    if (click == true)
-    {
-        profileHtml.style.display = 'none';
-        click = false;
-    }else if(click == false)
-    {
-        profileHtml.style.display = 'block';
-        click = true;
-    }
+    profileHtml.style.display = 'block';
+    icon.style.display = 'none';
+}
+function clickcloseProfile()
+{
+    profileHtml.style.display = 'none';
+    icon.style.display = 'block';
 }
