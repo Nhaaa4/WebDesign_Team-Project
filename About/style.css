@@ -103,6 +103,39 @@ nav span {
 
 /* * Header Styles */
 
+.profileBar
+{
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    
+}
+.profile2{
+    padding: 2em;
+    align-items: center;
+    width: 400px;
+    height: 100vh;
+    background-color: #3A9D5D;
+    color: white;
+    font-size: 1.5em;
+    border-radius: 0.5em 0 0 0.5em;
+}
+.profileResponsive
+{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profilePic img
+{
+    width: 40%;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Open information form */
 section {
     padding: 1rem;
 }
