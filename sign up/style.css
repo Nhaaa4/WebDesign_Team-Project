@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Khmer Banteay Srey';
+    src: url(../Fonts/Khmer\ Banteay\ Srey.ttf);
+}
+
+*
+{
+    box-sizing: border-box;
+    color: whitesmoke
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #287242;
+}
+.container
+{
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainContainer
+{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    gap: 0.5em;
+}
+.name-section
+{
+    display: flex;
+    gap: 0.5rem;
+}
+.logoPic
+{
+    position: relative;
+    top: -1em;
+    margin: 0px;
+    font-size: 2em;
+    padding-left: 2em;
+}
+
+.logoPic span {
+    position: absolute;
+    left: 6px;
+    top: -53px;
+    font-family: 'Khmer Banteay Srey';
+    font-size: 70px;
+    margin: 0px;
+}
+
+input{
+    width: 100%;
+    padding: 1.2em;
+    font-size: 0.8em;
+    color: black;
+    border-radius: 0.5em;
+    border: none;
+}
+button {
+    padding: 1.2em;
+    background-color: #E0C144;
+    color: white;
+    border: none;
+    border-radius: 0.5em;
+    font-weight: 600;
+    
+}
+@media only screen and (min-width: 800px){
+    .mainContainer
+    {
+        width: 25em;
+        padding: 1em;
+        gap: 1em;
+    }
+    input{
+        padding: 1.4em 1.6em 1.4em 1.6em;
+        font-size: 1em;
+    }
+    button
+    {
+        padding: 1em 1.6em 1em 1.6em;
+        font-size: 1.15em;
+    }
+}
+button:hover
+{
+    background-color: #c6a84d;
+}
+a{
+    font-size: 1,2em;
+}
+a:hover{
+    color: #ccc;
+}
