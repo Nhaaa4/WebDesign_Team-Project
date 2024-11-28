@@ -183,3 +183,62 @@ section article {
     transition: 0.3s ease;
     transform: scale(1.02);
 }
+
+@media screen and (max-width: 375px) {
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    .logo span {
+        top: -10px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        gap: 4rem;
+        font-size: 1.25rem;
+        display: none;
+    }
+
+    .icon-profile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    i{
+        display: none;
+    }
+
+    .img-group img {
+        width: 250px;
+        height: auto;
+
+    }
+
+    .img-wrapper {
+        margin: 0 2rem;
+    }
+
+    section h2{
+        padding: 1rem;
+    }
+
+    section article {
+        font-size: 0.85rem;
+        padding: 1rem;
+    }
+
+    .profile img{
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+    }
+    .username{
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+}
